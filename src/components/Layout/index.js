@@ -15,7 +15,7 @@ import {
   faFacebookSquare,
   faTwitterSquare,
 } from "@fortawesome/free-brands-svg-icons"
-import { faPeace, faCoffee, faYinYang } from "@fortawesome/free-solid-svg-icons"
+import { faPeace, faCoffee, faAnkh } from "@fortawesome/free-solid-svg-icons"
 
 import theme from "../../theme"
 import Container from "../Container"
@@ -25,13 +25,13 @@ import Main from "../Main"
 import Footer from "../Footer"
 import Menu from "../Menu"
 import MenuItem from "../MenuItem"
-import imgLogo from "../../images/logoCBS.png"
+import imgLogo from "../../images/egypt.png"
 
 library.add(
   fab,
   faCoffee,
   faPeace,
-  faYinYang,
+  faAnkh,
   faTwitterSquare,
   faFacebookSquare
 )
@@ -52,7 +52,7 @@ const Layout = ({ children }) => {
     <ThemeProvider theme={theme}>
       <Container>
         <Header>
-          <Logo to="/" text="AppDevelopment@CBS" img={imgLogo} />
+          <Logo to="/" text="Visit Egypt" img={imgLogo} />
           <Menu>
             <MenuItem to="/">Home</MenuItem>
             <MenuItem to="/blog/">Blog</MenuItem>
